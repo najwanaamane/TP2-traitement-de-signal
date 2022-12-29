@@ -41,6 +41,8 @@ rien_ne_sert_de = x(24251:154087);
 %sound(rien_ne_sert_de,fe)
 </pre>
 
+![rien](https://user-images.githubusercontent.com/86806375/209990890-78cd446c-9838-4748-b538-c677dd16b09b.JPG)
+
 
 6.	On refait la même chose pour les segments restants
 

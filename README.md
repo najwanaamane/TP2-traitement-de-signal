@@ -29,6 +29,7 @@ sound(x,fe/2);
 </pre>
 
 •	Il est important de noter que la compression du son est accompagnée par une dilatation des fréquences avec une conservation des pics à hautes fréquences, ce qui donne l’impression que le son est diminué et aigue.
+
 •	La dilatation est par contre accompagnée d’une compression du son et une augmentation d’amplitude des pics à basses fréquences, ce qui donne l’impression que le son est grave et amplifié.
 
 

@@ -32,7 +32,7 @@ sound(x,fe/2);
 •	La dilatation est par contre accompagnée d’une compression du son et une augmentation d’amplitude des pics à basses fréquences, ce qui donne l’impression que le son est grave et amplifié.
 
 
-4.	5.   – on segmente la première partie du signal, en créant la variable « rien_ne_sert_de » contenant les n premières valeurs du signal enregistré x qui correspondent à ce morceau
+4.5.   – on segmente la première partie du signal, en créant la variable « rien_ne_sert_de » contenant les n premières valeurs du signal enregistré x qui correspondent à ce morceau
 <pre>
 rien_ne_sert_de = x(24251:154087);
 %plot(rien_ne_sert_de);
@@ -111,8 +111,7 @@ sound(gamme);
 
 **Spectre de la gamme de musique**
 
-2.	
-3.	  L’analyseur de spectre signalAnalyzer utilise une estimation du spectre basée sur une transformée de Fourier, on le met en œuvre pour visualiser le spectre des fréquences de la gamme ainsi que le spectrogramme.
+2.3.	  L’analyseur de spectre signalAnalyzer utilise une estimation du spectre basée sur une transformée de Fourier, on le met en œuvre pour visualiser le spectre des fréquences de la gamme ainsi que le spectrogramme.
 
 
 
@@ -140,7 +139,7 @@ title('spectre en echelle lineaire');
 
 puis avec une echelle en decibels en utilisant la formule S(dB) = 20*log10(abs(Sf)), où Sf est l'amplitude du spectre de fréquence.
 
-              <pre>
+<pre>              
 S_dB = 20*log10(Sf)
 plot(fshift,fftshift(S_dB));
 title('spectre en echellle de decibels');
